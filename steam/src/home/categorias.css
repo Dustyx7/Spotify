@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    color: white;
+}
+
+body {
+
+    background-color: #1b2838;
+    font-family: Arial, sans-serif;
+   
+}
+
+.menu-hamburguer {
+  
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+
+.menu-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  display: block;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #000;
+  z-index: 10;
+}
+
+ul.menu.active {
+  display: flex;
+}
+
+ul.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+}
+
+ul.menu li a:hover {
+  background-color: #555;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header {
+    background-color: #1e2b3b;
+    padding: 15px 0;
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .esquerda,
+  .direita {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-navegacao {
+    flex-wrap: wrap;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .logo {
+    width: 140px;
+    height: auto;
+  }
+  
+  .menu-navegacao a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-weight: bold;
+  }
+  
+  .menu-navegacao a:hover {
+    color: #171d25;
+  }
+
+
+
+
+.categorias {
+    
+  flex-wrap: wrap;
+    border-radius: 12px;
+    padding: 100px;
+background-color:#171d25;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+   
+}
+
+.categorias {
+gap: 40px;
+display: flex;
+flex-flow: inline wrap;
+justify-content: center;
+
+
+}
+
+.cate a:hover {
+
+  transition: color 0.5s;
+color: #66c0f4;
+    font-weight: bold;
+  
+}
+
+
+
+h2 {
+
+    color: #587eaf;
+font-size: 17px;
+ margin-bottom: 30PX;
+
+}
+
+
+.modos a:hover{
+
+
+  transition: color 0.5s;
+color: #66c0f4;
+    font-weight: bold;
+    
+}
+
+.tema a:hover {
+
+
+    transition: color 0.5s;
+    color: #66c0f4;
+    font-weight: bold
+    ;
+
+}
+
+.genero a:hover  {
+
+transition: color 0.5s;
+color: #66c0f4;
+font-weight: bold;
+
+}
+
+.plataforma a:hover{
+   
+transition: color 0.5s;
+color: #66c0f4;
+font-weight: bold;
+
+
+}
+
+
+li {
+
+text-decoration: none;
+  color: #587eaf;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.baixar {
+
+    align-items: center;
+  
+   font-size: 25px;
+   ;
+   padding: 12px;
+   padding-left: 100px;
+   padding-right: 110px;
+ border-radius: 7px;
+
+ align-items: center;
+}
+
+.baixar1 {
+
+  background-color: #171d25;
+  padding: 15px 0;
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+
+}
